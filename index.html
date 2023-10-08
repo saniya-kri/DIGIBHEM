@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- header -->
+<div class="header">
+    <div class="container pad0">
+        <div class="col-sm-4 col-xs-2 head pad0">
+            <i class="bi bi-headset"></i>
+            <span>Support (00) 25 367 4999</span>
+        </div>
+        <div class="col-sm-4 col-xs-8 head arrow pad0">
+            <i class="bi bi-chevron-compact-left"></i>
+            Free shopping for order over $200
+            <i class="bi bi-chevron-compact-right"></i>
+        </div>
+        <div class="col-sm-4 col-xs-2 head direction pad0">
+            <i class="bi bi-geo-alt"></i>
+            <span>Order tracking</span>
+        </div>
+
+    </div>
+</div>
+
+    <!-- search-section -->
+
+<div class="search-sec desktop">
+    <div class="container pad0">
+        <div class="col-sm-2 logo pad0">
+            <img src="img/logo_dark.png" alt="">
+        </div>
+        <div class="col-sm-6 search-box">
+            <p>
+                <input type="text" placeholder="Search for products">
+                <i class="bi bi-search"></i>
+            </p>
+        </div>
+        <div class="col-sm-2 cart">
+            <i class="bi bi-heart"></i>
+            <a>
+                <i class="bi bi-person prsn"></i>Hello sign in<br>
+                <b>My Account</b>
+            </a>
+        </div>
+        <div class="col-sm-2 cart2">
+            <a>
+                <i class="bi bi-cart prsn"></i> My Cart <br>
+                <b>$265 00</b>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="search-sec mobile">
+    <div class="container pad0">
+        <div class="col-xs-4 logo pad0">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="col-xs-8 pad0" align="right">
+            <ul>
+                <li><a href="#"><i class="bi bi-search"></i></a></li>
+                <li><a href="#"><i class="bi bi-heart"></i></a></li>
+                <li><a href="#"><i class="bi bi-cart"></i></a></li>
+                <li><a href="#"><i class="bi bi-person"></i></a></li>
+                <li><a href="#"><i class="bi bi-list" id="MyMenu"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- navbar -->
+<div class="navbar desktop">
+    <div class="container nav-sec">
+        <ul>
+            <li><a href="#">NEW</a><i class="bi bi-chevron-down"></i></li>
+            <li><a href="#">WOMEN</a><i class="bi bi-chevron-down"></i></li>
+            <li><a href="#">MEN</a><i class="bi bi-chevron-down"></i></li>
+            <li><a href="#">KIDS</a><i class="bi bi-chevron-down"></i></li>
+            <li><a href="#">ACCESSORIES</a></li>
+            <li><a href="#">SALE</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="mynavbar">
+    <span class="close"><i class="bi bi-x-lg" id="MenuClose"></i></span>
+    <ul>
+        <li><a href="#">NEW</a><i class="bi bi-chevron-down"></i></li>
+        <li><a href="#">WOMEN</a><i class="bi bi-chevron-down"></i></li>
+        <li><a href="#">MEN</a><i class="bi bi-chevron-down"></i></li>
+        <li><a href="#">KIDS</a><i class="bi bi-chevron-down"></i></li>
+        <li><a href="#">ACCESSORIES</a></li>
+        <li><a href="#">SALE</a></li>
+    </ul>
+</div>
+
+<!-- slider -->
+<div id="mySlider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+        <div class="item active item-sec">
+            <img src="img/bnr37.jpg" alt="...">
+            <div class="carousel-caption myCaption">
+                <p>Even more than you expect</p>
+                <h1>FASHION, SNEAKERS, SPORT AND MORE</h1><br>
+                <a href="#" class="slidBtn">shop women</a>
+                <a href="#" class="slidBtn">shop men</a>
+            </div>
+        </div>
+        <div class="item item-sec">
+            <img src="img/banner2 (37).jpg" alt="...">
+            <div class="carousel-caption myCaption">
+                <p>Even more than you expect</p>
+                <h1>FASHION, SNEAKERS, SPORT AND MORE</h1><br>
+                <a href="#" class="slidBtn">shop women</a>
+                <a href="#" class="slidBtn">shop men</a>
+            </div>
+        </div>
+        <div class="item item-sec">
+            <img src="img/banr38.jpg" alt="...">
+            <div class="carousel-caption myCaption">
+                <p>Even more than you expect</p>
+                <h1>FASHION, SNEAKERS, SPORT AND MORE</h1><br>
+                <a href="#" class="slidBtn">shop women</a>
+                <a href="#" class="slidBtn">shop men</a>
+            </div>
+        </div>
+    </div>
+    <!-- control -->
+    <a class="left carousel-control carousel-control-prev" href="#mySlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control carousel-control-next" href="#mySlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+    
+
+<!-- treanding-products -->
+<div class="trending-pro">
+    <div class="container products">
+        <H2>Trending products</H2>
+        <div class="col-sm-3">
+            <div class="girl">
+                <div class="col-sm-12 heart-sec">
+                    <a><i class="bi bi-heart"></i></a>
+                </div>
+                <div class="girlImgBox"><img src="img/shoe.jpg" alt=""></div>
+                <div class="col-sm-8 pad0"><p>Sneakers & Keds</p></div>
+                <div class="col-sm-4"><button>Add to cart</button></div><br><br>
+                <h6>Women ColorBlock Sneakers</h6>
+                <div class="col-sm-6 dolor">
+                    <b>$154.00</b>
+                </div>
+                <div class="col-sm-6 star">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="girl">
+                <div class="col-sm-12 heart-sec">
+                    <a><i class="bi bi-heart"></i></a>
+                </div>
+                <div class="girlImgBox"><img src="img/top.jpg" alt=""></div>
+                <div class="col-sm-8 pad0"><p>Sneakers & Keds</p></div>
+                <div class="col-sm-4"><button>Add to cart</button></div><br><br>
+                <h6>Women ColorBlock Sneakers</h6>
+                <div class="col-sm-6 dolor">
+                    <b>$154.00</b>
+                </div>
+                <div class="col-sm-6 star">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="girl">
+                <div class="col-sm-12 heart-sec">
+                    <a><i class="bi bi-heart"></i></a>
+                </div>
+
+                <div class="girlImgBox"><img src="img/03.jpg" alt=""></div>
+                <div class="col-sm-8 pad0"><p>Sneakers & Keds</p></div>
+                <div class="col-sm-4"><button>Add to cart</button></div><br><br>
+                <h6>Women ColorBlock Sneakers</h6>
+                <div class="col-sm-6 dolor">
+                    <b>$154.00</b>
+                </div>
+                <div class="col-sm-6 star">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="girl">
+                <div class="col-sm-12 heart-sec">
+                    <a><i class="bi bi-heart"></i></a>
+                </div>
+                <div class="girlImgBox"><img src="img/05 (1).jpg" alt=""></div>
+                <div class="col-sm-8 pad0"><p>Sneakers & Keds</p></div>
+                <div class="col-sm-4"><button>Add to cart</button></div><br><br>
+                <h6>Women ColorBlock Sneakers</h6>
+                <div class="col-sm-6 dolor">
+                    <b>$154.00</b>
+                </div>
+                <div class="col-sm-6 star">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- second part of Trending products -->
+<div class="trending-pro">
+    <div class="container products product2">
+        <div class="col-sm-3 girl-bg">
+            <div class="girl">
+                <div class="col-sm-12 heart-sec">
+                    <a><i class="bi bi-heart"></i></a>
+                </div>
+                <div class="girlImgBox"><img src="img/25.jpg" alt=""></div>
+                <div class="col-sm-8 pad0"><p>Sneakers & Keds</p></div>
+                <div class="col-sm-4"><button class="girlBtn">Add to cart</button></div><br><br>
+                <h6>Women ColorBlock Sneakers</h6>
+                <div class="col-sm-6 dolor">
+                    <b>$154.00</b>
+                </div>
+                <div class="col-sm-6 star">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="girl special">
+                <div class="col-sm-12 heart-sec">
+                    <a><i class="bi bi-heart"></i></a>
+                </div>
+                <div class="girlImgBox"><img src="img/21.jpg" alt=""></div>
+                <div class="col-sm-8 pad0"><p>Sneakers & Keds</p></div>
+                <div class="col-sm-4"><button>Add to cart</button></div><br><br>
+                <h6>Women ColorBlock Sneakers</h6>
+                <div class="col-sm-6 dolor">
+                    <b>$154.00</b>
+                </div>
+                <div class="col-sm-6 star">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="girl">
+                <div class="col-sm-12 heart-sec">
+                    <a><i class="bi bi-heart"></i></a>
+                </div>
+
+                <div class="girlImgBox"><img src="img/06.jpg" alt=""></div>
+                <div class="col-sm-8 pad0"><p>Sneakers & Keds</p></div>
+                <div class="col-sm-4"><button>Add to cart</button></div><br><br>
+                <h6>Women ColorBlock Sneakers</h6>
+                <div class="col-sm-6 dolor">
+                    <b>$154.00</b>
+                </div>
+                <div class="col-sm-6 star">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="girl">
+                <div class="col-sm-12 heart-sec">
+                    <a><i class="bi bi-heart"></i></a>
+                </div>
+                <div class="girlImgBox"><img src="img/04.jpg" alt=""></div>
+                <div class="col-sm-8 pad0"><p>Sneakers & Keds</p></div>
+                <div class="col-sm-4"><button>Add to cart</button></div><br><br>
+                <h6>Women ColorBlock Sneakers</h6>
+                <div class="col-sm-6 dolor">
+                    <b>$154.00</b>
+                </div>
+                <div class="col-sm-6 star">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 Wish-btn">
+            <a href="" class="Wishlist">Move to Wishlist<i class="bi bi-heart-fill"></i></a>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- offer-section -->
+
+<div class="Summer-collection">
+    <div class="container">
+        <div class="col-sm-6 offer">
+            <img src="img/tranding_img.png" alt="" class="img-responsive">
+        </div>
+        <div class="col-sm-6 offer-sec">
+            <p>How season trends!!</p>
+            <h1>Best Summer Collection</h1>
+            <i>Sale Get up to 50% Off</i><br><br>
+            <a href="">Shop Now</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- brand -->
+<div class="Brand">
+    <h6>CHOOSE YOUR BRAND</h6>
+    <div class="container brandSec">
+    <div class="col-sm-2 col-xs-6">
+        <div class="company">
+            <img src="img/18.png" alt="">
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-6">
+        <div class="company">
+            <img src="img/19.png" alt="">
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-6">
+        <div class="company">
+            <img src="img/101.png" alt="">
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-6">
+        <div class="company">
+            <img src="img/13.png" alt="">
+        </div>
+    </div>
+    
+    <div class="col-sm-2 col-xs-6">
+        <div class="company">
+            <img src="img/15.png" alt="">
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-6">
+        <div class="company">
+            <img src="img/16.png" alt="">
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-6">
+        <div class="company">
+            <img src="img/18.png" alt="">
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-6">
+        <div class="company">
+            <img src="img/14.png" alt="">
+        </div>
+    </div>
+    
+    <div class="col-sm-2 col-xs-6">
+        <div class="company">
+            <img src="img/21.png" alt="">
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-6">
+        <div class="company">
+            <img src="img/20.png" alt="">
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-6">
+        <div class="company">
+            <img src="img/17.png" alt="">
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-6">
+        <div class="company">
+            <img src="img/11.png" alt="">
+        </div>
+    </div>
+    
+  </div> 
+</div> <br><br>
+
+
+<!-- category-section -->
+<!-- women-sec -->
+<div class="container" style="padding: 20px;" >
+    <div class="col-sm-6 pad0 w-bg">
+        <div class="women-sec">
+           <div class="women-bg">
+               <h5>FOR WOMEN</h5>
+               <p>Shop for women</p>
+            </div>
+        </div>
+       <div class="picBoxControl">
+             <a class="" href="#picBoxSlider" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="" href="#picBoxSlider" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+       </div>
+    </div>
+        <div class="col-sm-6">
+            <div id="picBoxSlider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/top.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                           <p>Top</p>
+                           <h5>Cotton Lace Top</h5>
+                           <div class="col-sm-4 pad0 price">$37.50</div>
+                            <div class="col-sm-8 star2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                           </div>
+                        </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/wMen2.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/shoe.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/wMen6.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/wMen5.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/wMen4.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/wMen2.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/lipstik.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/wMen1.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/wMen3.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/04.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/25.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div><br><br>
+
+<!-- kids-sec -->
+<div class="container" style="padding: 20px;" >
+        <div class="col-sm-6">
+            <div id="picBoxSlider2" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/kids1.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                           <p>Toys</p>
+                           <h5>Cotton Lace Top</h5>
+                           <div class="col-sm-4 pad0 price">$37.50</div>
+                            <div class="col-sm-8 star2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                           </div>
+                        </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/kids2.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/kids3.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/kids4.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/kids6.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/kids7.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/kids8.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/kids9.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/kids10.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/kids11.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/kids12.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/kids11.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 pad0 w-bg">
+        <div class="kids-sec">
+           <div class="kids-bg">
+               <h5>FOR KIDS</h5>
+               <p>Shop for kids</p>
+            </div>
+        </div>
+       <div class="picBoxControl">
+                 <a class="" href="#picBoxSlider2" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="" href="#picBoxSlider2" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+       </div>
+    </div>
+</div><br><br>
+
+
+<!-- men-sec -->
+<div class="container" style="padding: 20px;" >
+    <div class="col-sm-6 pad0 w-bg">
+        <div class="men-sec">
+           <div class="men-bg">
+               <h5>FOR MEN</h5>
+               <p>Shop for men</p>
+            </div>
+      </div>
+       <div class="picBoxControl">
+                 <a class="" href="#picBoxSlider3" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="" href="#picBoxSlider3" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                
+       </div>
+    </div>
+        <div class="col-sm-6">
+            <div id="picBoxSlider3" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/men1.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                           <p>Top</p>
+                           <h5>Cotton Lace Top</h5>
+                           <div class="col-sm-4 pad0 price">$37.50</div>
+                            <div class="col-sm-8 star2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                           </div>
+                        </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/men2.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/men3.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/men4.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/men5.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/men6.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/men7.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/men8.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/men9.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/men10.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/men11.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                        <div class="col-sm-4">
+                        <div class="picBox">
+                            <img src="img/men12.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p>Top</p>
+                            <h5>Cotton Lace Top</h5>
+                            <div class="col-sm-4 pad0 price">$37.50</div>
+                             <div class="col-sm-8 star2">
+                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                         </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div><br><br>
+
+<!-- Testimonial -->
+
+<div class="container testimonial_bg" style="background-color: #efefef;" >
+   <div id="mySlider2" class="carousel slide" data-ride="carousel"> 
+       <ol class="carousel-indicators">
+           <li data-target="#mySlider2" data-slide-to="0" class="active"></li>
+           <li data-target="#mySlider2" data-slide-to="1"></li>
+           <li data-target="#mySlider2" data-slide-to="2"></li>
+       </ol> 
+
+       <div class="carousel-inner" role="listbox">
+           <div class="item active">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 testimonial">
+                   <H1>Our Clients Says</H1><br>
+                   <div class="testimonial_img">
+                       <img src="img/test.jpg" alt="" class="img-responsive">
+                   </div>
+                   <div class="testimonial_text">
+                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident debitis corrupti reiciendis sunt nemo quis nostrum rerum, exercitationem sequi consectetur necessitatibus modi. Mollitia blanditiis voluptatum nobis distinctio eaque, pariatur fugiat Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit itaque et perspiciatis praesentium delectus quidem consequuntur laudantium rerum ab. Ea, laudantium tempora laboriosam aut ipsa aliquid unde nulla possimus eveniet dolores. Quidem, porro! <br><br>
+                       <b>Samuel schick</b>
+                   </div>
+               </div>
+           </div>
+           <div class="item">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 testimonial">
+                   <H1>Our Clients Says</H1><br>
+                   <div class="testimonial_img">
+                       <img src="img/team2.jpg" alt="" class="img-responsive">
+                   </div>
+                   <div class="testimonial_text">
+                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident debitis corrupti reiciendis sunt nemo quis nostrum rerum, exercitationem sequi consectetur necessitatibus modi. Mollitia blanditiis voluptatum nobis distinctio eaque, pariatur fugiat Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit itaque et perspiciatis praesentium delectus quidem consequuntur laudantium rerum ab. Ea, laudantium tempora laboriosam aut ipsa aliquid unde nulla possimus eveniet dolores. Quidem, porro! <br><br>
+                       <b>Samuel schick</b>
+                   </div>
+               </div>
+           </div>
+           <div class="item">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 testimonial">
+                   <H1>Our Clients Says</H1><br>
+                   <div class="testimonial_img">
+                       <img src="img/team4.jpg" alt="" class="img-responsive">
+                   </div>
+                   <div class="testimonial_text">
+                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident debitis corrupti reiciendis sunt nemo quis nostrum rerum, exercitationem sequi consectetur necessitatibus modi. Mollitia blanditiis voluptatum nobis distinctio eaque, pariatur fugiat Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit itaque et perspiciatis praesentium delectus quidem consequuntur laudantium rerum ab. Ea, laudantium tempora laboriosam aut ipsa aliquid unde nulla possimus eveniet dolores. Quidem, porro! <br><br>
+                       <b>Samuel schick</b>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <a class="left carousel-control carousel-control-prev" href="#mySlider2" role="button" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+       </a>
+       <a class="right carousel-control carousel-control-next" href="#mySlider2" role="button" data-slide="next">
+           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+           <span class="sr-only">Next</span>
+       </a>
+   </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="col-sm-3 Company">
+            <h3>ShopWise</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facere est unde, provident soluta debitis quam sit. Hic doloremque magnam autem ullam suscipit explicabo atque.</p>
+            
+        </div>
+        <div class="col-sm-2 Company">
+            <h3>Menu</h3>
+            <a href="#">Products</a><br>
+            <a href="#">Rooms</a><br>
+            <a href="#">Inspirations</a><br>
+            <a href="#">About us</a><br>
+            <a href="#">Terms & policy</a><br>
+        </div>
+        <div class="col-sm-2 Company">
+            <h3>Account</h3>
+            <a href="#">My Account</a><br>
+            <a href="#">Checkout</a><br>
+            <a href="#">My Cart</a><br>
+            <a href="#">My Catalog</a><br>
+        </div>
+        <div class="col-sm-3 Company">
+            <h4>Stay Connected</h4><br>
+            <a><i class="bi bi-facebook"></i></a>
+                <a><i class="bi bi-instagram"></i></a>
+                <a><i class="bi bi-twitter"></i></a>
+            
+        </div>
+        <div class="col-sm-2 Company pad0">
+            <h3>Stay Updated</h3>
+           <input type="email" name="" id="" placeholder="Enter your email">
+        </div>
+        
+       
+    </div>
+  </div>
+  <!-- center -->
+
+  <center>&copy; copyright 2023 || reserved by A^A Company</center>
+
+
+
+    <script src="https://kit.fontawesome.com/17a6b59347.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $("#MyMenu").click(function(){
+          $(".mynavbar").addClass('active');
+        })
+        $("#MenuClose").click(function(){
+          $(".mynavbar").removeClass('active');
+        })
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
